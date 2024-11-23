@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Information</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        </br>
+        <h1>MULTI DEVICE</h1>
+        </br>
+        <p>This code creates a responsive web page to display system information interactively. Using a three-column grid layout, it shows data such as platform, OS, CPU, memory, and more, enhanced with a futuristic glitch effect for a modern look.</p>
+        <hr>
+        <div class="stats-information">
+            <h2>System Information Overview</h2>
+            </br>
+            <div class="stats">
+                <div class="stat-item">
+                    <i class="icon fas fa-user-circle"></i>
+                    <p class="stat-label">Platform</p>
+                    <p class="stat-value" id="platform">Loading...</p>
+                </div>
+                <div class="stat-item">
+                    <i class="icon fas fa-desktop"></i>
+                    <p class="stat-label">OS</p>
+                    <p class="stat-value" id="os">Loading...</p>
+                </div>
+                <div class="stat-item">
+                    <i class="icon fas fa-microchip"></i>
+                    <p class="stat-label">CPU / Cores</p>
+                    <p class="stat-value" id="cpuGpuInfo">Loading...</p>
+                </div>
+                <div class="stat-item">
+                    <i class="icon fas fa-memory"></i>
+                    <p class="stat-label">Memory</p>
+                    <p class="stat-value" id="memoryCapacity">Loading...</p>
+                </div>
+                <div class="stat-item">
+                    <i class="icon fas fa-hdd"></i>
+                    <p class="stat-label">Storage</p>
+                    <p class="stat-value" id="storageCapacity">Loading...</p>
+                </div>
+                <div class="stat-item">
+                    <i class="icon fas fa-network-wired"></i>
+                    <p class="stat-label">IP Address</p>
+                    <p class="stat-value" id="ipAddress">Loading...</p>
+                </div>
+                <div class="stat-item">
+                    <i class="icon fas fa-calendar"></i>
+                    <p class="stat-label">Date</p>
+                    <p class="stat-value" id="dateValue">Loading...</p>
+                </div>
+                <div class="stat-item">
+                    <i class="icon fas fa-clock"></i>
+                    <p class="stat-label">Time</p>
+                    <p class="stat-value" id="timeValue">Loading...</p>
+                </div>
+                <div class="stat-item">
+                    <i class="icon fas fa-stopwatch"></i>
+                    <p class="stat-label">Stopwatch</p>
+                    <p class="stat-value" id="uptimeValue">Loading...</p>
+                </div>
+                </br>
+                </br>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
