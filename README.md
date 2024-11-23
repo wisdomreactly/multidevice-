@@ -28,9 +28,11 @@ Ensure you have a modern web browser (e.g., Chrome, Firefox, Edge) to run this p
 git clone https://github.com/wisdomreactly/multidevice.git
 
 
+
 2. Navigate to the project folder:
 
 cd multidevice
+
 
 
 ## Usage
