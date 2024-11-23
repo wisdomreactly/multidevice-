@@ -21,20 +21,6 @@ Prerequisites
 
 Ensure you have a modern web browser (e.g., Chrome, Firefox, Edge) to run this project.
 
-## Installation
-
-1. Clone the repository:
-
-git clone https://github.com/wisdomreactly/multidevice.git
-
-
-
-2. Navigate to the project folder:
-
-cd multidevice
-
-
-
 ## Usage
 
 1. Open the index.html file in your browser.
